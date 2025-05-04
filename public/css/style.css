@@ -186,6 +186,7 @@ a {
 @media (max-width: 700px) {
 	.chat-main {
 		display: block;
+		height: 60vh;
 	}
 
 	.chat-sidebar {
