@@ -90,8 +90,8 @@ a {
 }
 
 .chat-messages {
-	padding: 30px;
-	max-height: 500px;
+	padding: 10px;
+	max-height: 82%;
 	overflow-y: scroll;
 }
 
@@ -113,6 +113,7 @@ a {
 
 .chat-messages .message .meta span {
 	color: #777;
+	
 }
 
 .chat-form-container {
@@ -156,9 +157,9 @@ a {
 	margin-bottom: 20px;
 }
 
-.join-main .form-control {
-	/* margin-bottom: 20px; */
-}
+/* .join-main .form-control {
+	margin-bottom: 20px;
+} */
 
 .join-main label {
 	display: block;
@@ -182,6 +183,16 @@ a {
 .join-main .btn {
 	margin-top: 20px;
 	width: 100%;
+}
+
+.hidden-chat{
+	height: 90%;
+	visibility: hidden;
+}
+
+.chat-messages{
+	height: 90vh;
+	
 }
 
 @media (max-width: 700px) {
