@@ -211,5 +211,19 @@ a {
 	input{
 		width: 70%;
 	}
+
+	.send-btn span{
+		display: none;
+	}
+
+	.send-btn{
+		font-size: 20px;
+
+	}
 	  
+	.chat-form-container {
+		padding: 10px 20px;
+		background-color: var(--dark-color-a);
+	}
+	
 }
