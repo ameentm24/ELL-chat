@@ -12,6 +12,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	
 }
 
 body {
@@ -36,6 +37,7 @@ a {
 	color: var(--dark-color-a);
 	border: 0;
 	font-size: 17px;
+	border-radius: 5px;
 }
 
 /* Chat Page */
@@ -45,6 +47,7 @@ a {
 	background: #fff;
 	margin: 30px auto;
 	overflow: hidden;
+	/* height: 90vh; */
 }
 
 .chat-header {
@@ -61,6 +64,7 @@ a {
 .chat-main {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
+	height: 75vh;
 }
 
 .chat-sidebar {
